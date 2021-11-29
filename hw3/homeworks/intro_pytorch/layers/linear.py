@@ -9,7 +9,7 @@ from utils import problem
 class LinearLayer(nn.Module):
     @problem.tag("hw3-A", start_line=1)
     def __init__(
-        self, dim_in: int, dim_out: int, generator: Optional[torch.Generator] = None
+            self, dim_in: int, dim_out: int, generator: Optional[torch.Generator] = None
     ):
         """Linear Layer, which performs calculation of: x @ weight + bias
 
@@ -32,7 +32,13 @@ class LinearLayer(nn.Module):
         """
         super().__init__()
 
-        raise NotImplementedError("Your Code Goes Here")
+        if generator:
+            self.generator = generator
+        else:
+            self.generator = None
+
+        self.weight = torch.nn.Parameter(torch.randn(dim_in, dim_out, generator=generator))
+        self.bias = torch.nn.Parameter(torch.randn(dim_out, generator=generator))
 
     @problem.tag("hw3-A")
     def forward(self, x: torch.Tensor) -> torch.Tensor:
@@ -46,4 +52,6 @@ class LinearLayer(nn.Module):
             torch.Tensor: More specifically a torch.FloatTensor, with shape of (n, dim_out).
                 Output data.
         """
-        raise NotImplementedError("Your Code Goes Here")
+
+        output = x @ self.weight + self.bias
+        return output

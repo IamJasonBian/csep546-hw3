@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd3a3523-3c78-4c21-98ec-a6a913700835" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/debugger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cse446utils.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cse446utils.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cse446utils.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cse446utils.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mnist/mnist.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/polyreg/data1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/polyreg/data2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/polyreg/polydata.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/xor/x_test.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/xor/x_train.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/xor/x_val.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/xor/y_test.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/xor/y_train.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/xor/y_val.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/crossentropy_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/layers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/layers/linear.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/layers/relu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/layers/sigmoid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/layers/softmax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/losses/CrossEntropy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/losses/MSE.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/losses/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/mean_squared_error_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/optimizers/SGD.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/optimizers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/neural_network_mnist/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/neural_network_mnist/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/neural_network_mnist/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/intro_pytorch/test_CrossEntropy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/intro_pytorch/test_MSE.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/intro_pytorch/test_SGD.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/intro_pytorch/test_linear.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/intro_pytorch/test_relu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/intro_pytorch/test_sigmoid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/intro_pytorch/test_softmax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/load_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/tag_decorator.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="21QsXE7ZlflQsHhqHtXd2GPCoia" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw3/homeworks/__init__.py" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="debugger" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Jason\anaconda3\envs\cse546\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw3/homeworks/intro_pytorch" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/debugger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.debugger" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd3a3523-3c78-4c21-98ec-a6a913700835" name="Changes" comment="" />
+      <created>1637884683783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637884683783</updated>
+      <workItem from="1637884686569" duration="4172000" />
+      <workItem from="1638060120597" duration="19275000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hw3/homeworks/intro_pytorch/crossentropy_search.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hw3/homeworks/intro_pytorch/layers/linear.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/csep546_hw3$debugger.coverage" NAME="debugger Coverage Results" MODIFIED="1638135120860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw3/homeworks/intro_pytorch" />
+  </component>
+</project>

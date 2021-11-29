@@ -1,5 +1,6 @@
 import torch
 from torch import nn
+import numpy as np
 
 from utils import problem
 
@@ -31,6 +32,10 @@ class SoftmaxLayer(nn.Module):
             - YOU ARE NOT ALLOWED to use torch.nn.Softmax (or it's functional counterparts) in this class.
             - Make use of pytorch documentation: https://pytorch.org/docs/stable/index.html
         """
+
         x = x - torch.max(x)
-        
-        raise NotImplementedError("Your Code Goes Here")
+        mean_vec = torch.mean(x, 1, keepdim=True)[0]
+        x_exp = torch.exp(x - mean_vec)
+        x_exp_sum = torch.sum(x_exp, 1, keepdim=True)
+
+        return x_exp / x_exp_sum
