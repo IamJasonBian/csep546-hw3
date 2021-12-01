@@ -26,8 +26,14 @@ class F1(Module):
             k (int): Output dimension/number of classes.
         """
         super().__init__()
+        alpha = (1/torch.sqrt(d))
+        gen = Uniform(-1 * alpha, alpha)
 
-        raise NotImplementedError("Your Code Goes Here")
+        self.w0 = Parameter(gen.rsample((h,d)))
+        self.b0 = Parameter(gen.rsample((h,)))
+        self.b1 = Parameter(gen.rsample((k,)))
+
+
 
     @problem.tag("hw3-A")
     def forward(self, x: torch.Tensor) -> torch.Tensor:
@@ -43,7 +49,10 @@ class F1(Module):
         Returns:
             torch.Tensor: LongTensor of shape (n, k). Prediction.
         """
-        raise NotImplementedError("Your Code Goes Here")
+        l0 = torch.matmul(self.w0, x) + self.b0
+        l1 = torch.matmul(self.w1, relu(l0)) + self.b1
+
+        return relu(l1)
 
 
 class F2(Module):
@@ -58,8 +67,16 @@ class F2(Module):
             k (int): Output dimension/number of classes.
         """
         super().__init__()
+        alpha = (1 / torch.sqrt(d))
 
-        raise NotImplementedError("Your Code Goes Here")
+        gen = Uniform(-1*alpha, alpha)
+
+        self.w0 = Parameter(gen.rsample((h0,d)))
+        self.w1 = Parameter(gen.rsample((h1, h0)))
+        self.w2 = Parameter(gen.rsample((k, h1)))
+        self.b0 = Parameter(gen.rsample((h0,)))
+        self.b1 = Parameter(gen.rsample((h1,)))
+        self.b2 = Parameter(gen.rsample((k, )))
 
     @problem.tag("hw3-A")
     def forward(self, x: torch.Tensor) -> torch.Tensor:
@@ -75,7 +92,11 @@ class F2(Module):
         Returns:
             torch.Tensor: LongTensor of shape (n, k). Prediction.
         """
-        raise NotImplementedError("Your Code Goes Here")
+        l0 = torch.matmul(self.w0, x) + self.b0
+        l1 = torch.matmul(self.w1, relu(l0)) + self.b1
+        l2 = torch.matmul(self.w2, relu(l1)) + self.b2
+
+        return relu(l2)
 
 
 @problem.tag("hw3-A")
@@ -96,8 +117,14 @@ def train(model: Module, optimizer: Adam, train_loader: DataLoader) -> List[floa
     last_accuracy = 0.0
     losses = []
     while last_accuracy <= 0.99:
-        raise NotImplementedError("Your Code Goes Here")
-    return losses
+        optimizer.zero_grad()
+        output = model(data)
+        loss = cross_entropy(output, tgt.type(torch.LongTensor))
+        loss.backward()
+        optimizer.step()
+        losses.append(loss.item())
+
+    return sum(losses)/len(losses)
 
 
 @problem.tag("hw3-A", start_line=5)
@@ -114,8 +141,15 @@ def main():
     We strongly advise that you use torch functionality such as datasets, but as mentioned in the pdf you cannot use anything from torch.nn other than what is imported here.
     """
     (x, y), (x_test, y_test) = load_dataset("mnist")
+    Optimizier = Adam(model.parameters())
+    model = F1(64,784,10)
+    Dataloader = DataLoader(list(zip(x,y)), batch_size =1)
     
-    raise NotImplementedError("Your Code Goes Here")
+    epoch= 0
+    while epoch < 1:
+        Optimizier.zero_grad()
+        loss = train(model, Optimizer, Dataloader)
+        print(loss)
 
 
 if __name__ == "__main__":

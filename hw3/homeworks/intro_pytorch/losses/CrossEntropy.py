@@ -1,5 +1,7 @@
 import torch
 from torch import nn
+import numpy as np
+from math import *
 
 from utils import problem
 
@@ -32,15 +34,12 @@ class CrossEntropyLossLayer(nn.Module):
             - Not that this is different from torch.nn.CrossEntropyLoss, as it doesn't perform softmax, but anticipates the result to already be normalized.
         """
 
-        def log_softmax(x):
-            return x - x.exp().sum(-1).log().unsqueeze(-1)
+        ls = []
 
-        def nll_loss(p, target):
-            return -p[range(target.shape[0]), target].mean()
+        for idx, (i, j) in enumerate(zip(y_true, y_pred)):
 
-        lp = log_softmax(y_pred)
-        loss = nll_loss(lp, y_true)
+            cross_entropy = -log(j[i])
+            ls.append(cross_entropy)
 
-        return(loss)
-
+        return np.mean(ls)
 

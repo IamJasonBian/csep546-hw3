@@ -2,6 +2,9 @@ from typing import Dict, List, Optional
 
 import numpy as np
 import torch
+
+#import pieces that we implemented
+
 from matplotlib import pyplot as plt
 from torch import nn, optim
 from torch.utils.data import DataLoader
@@ -51,8 +54,22 @@ def train(
     losses = []
     val_losses = []
 
+    model.train()
     for epoch in range(epochs):
-        raise NotImplementedError("Your Code Goes Here")
+
+        #zero out gradients in optimizer
+        #forward pass
+
+        #backprogation
+        #Compute the loss
+        #SGD
+
+        #torch.nn.sequencial for more layers
+
+        optimizer.zero_grad()
+        train_loader
+        y = model(x)
+
 
     return {
         "train": losses,

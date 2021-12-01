@@ -2,55 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd3a3523-3c78-4c21-98ec-a6a913700835" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/debugger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cse446utils.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cse446utils.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cse446utils.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cse446utils.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mnist/mnist.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/polyreg/data1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/polyreg/data2.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/polyreg/polydata.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/xor/x_test.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/xor/x_train.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/xor/x_val.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/xor/y_test.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/xor/y_train.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/xor/y_val.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/environment.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/crossentropy_search.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/layers/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/layers/linear.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/layers/relu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/layers/sigmoid.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/layers/softmax.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/losses/CrossEntropy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/losses/MSE.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/losses/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/mean_squared_error_search.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/optimizers/SGD.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/optimizers/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/intro_pytorch/train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/neural_network_mnist/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/neural_network_mnist/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/neural_network_mnist/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/public/intro_pytorch/test_CrossEntropy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/public/intro_pytorch/test_MSE.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/public/intro_pytorch/test_SGD.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/public/intro_pytorch/test_linear.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/public/intro_pytorch/test_relu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/public/intro_pytorch/test_sigmoid.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/public/intro_pytorch/test_softmax.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/load_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/tag_decorator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/debugger.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/debugger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/losses/CrossEntropy.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/losses/CrossEntropy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/optimizers/SGD.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/optimizers/SGD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/homeworks/neural_network_mnist/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/homeworks/neural_network_mnist/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw3/homeworks/__init__.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw3/homeworks/neural_network_mnist/main.py" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
@@ -111,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637884683783</updated>
       <workItem from="1637884686569" duration="4172000" />
-      <workItem from="1638060120597" duration="19275000" />
+      <workItem from="1638060120597" duration="33201000" />
     </task>
     <servers />
   </component>
@@ -143,9 +100,16 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/csep546_hw3$debugger.coverage" NAME="debugger Coverage Results" MODIFIED="1638135120860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw3/homeworks/intro_pytorch" />
+    <SUITE FILE_PATH="coverage/csep546_hw3$debugger.coverage" NAME="debugger Coverage Results" MODIFIED="1638343576577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw3/homeworks/intro_pytorch" />
   </component>
 </project>

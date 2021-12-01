@@ -1,6 +1,7 @@
 import torch
 
 from utils import problem
+import numpy as np
 
 
 class SGDOptimizer(torch.optim.Optimizer):
@@ -36,5 +37,10 @@ class SGDOptimizer(torch.optim.Optimizer):
         Hint:
             - Superclass stores parameters in self.param_groups (you will have to discover in what format).
         """
-        
-        raise NotImplementedError("Your Code Goes Here")
+
+        weight = self.param_groups[0]['params'][0]
+        bias = self.param_groups[0]['params'][1]
+
+        weight.data -= self.lr*weight.grad.data
+        bias.data -= self.lr*bias.grad.data
+
