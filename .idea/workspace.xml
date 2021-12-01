@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd3a3523-3c78-4c21-98ec-a6a913700835" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/debugger.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/debugger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/losses/CrossEntropy.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/losses/CrossEntropy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/optimizers/SGD.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/optimizers/SGD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/homeworks/intro_pytorch/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw3/homeworks/neural_network_mnist/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/homeworks/neural_network_mnist/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="bd3a3523-3c78-4c21-98ec-a6a913700835" name="Changes" comment="Changed hw3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,8 +61,16 @@
       <option name="presentableId" value="Default" />
       <updated>1637884683783</updated>
       <workItem from="1637884686569" duration="4172000" />
-      <workItem from="1638060120597" duration="33201000" />
+      <workItem from="1638060120597" duration="33396000" />
     </task>
+    <task id="LOCAL-00001" summary="Changed hw3">
+      <created>1638343764755</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638343764755</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +86,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed hw3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed hw3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
